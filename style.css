@@ -132,9 +132,14 @@ p {
   font-size: 25px;
   text-align: left;
   text-shadow: 5px 5px 32px #000000 !important;
-  color: #ffffff !important;
+  color: #2449af !important;
+  text-decoration: none;
 }
 
+.derecho a:hover{
+  color: #ffffff !important;
+  text-shadow: 5px 5px 32px rgba(253, 235, 32, 0.849) !important;
+}
 .container-wa {
   /* background-color: #fff70542; */
   position: fixed;
