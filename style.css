@@ -216,7 +216,8 @@ p {
 .grid-container {
   display: grid;
   border-radius: 50px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
   grid-template-rows: repeat(1, 500px);
   text-align: center;
 }
